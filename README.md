@@ -6,7 +6,7 @@
     
 # Ejecución
 
-    sh challenge1.sh output     =>  muestra las variables x default
+    sh challenge1.sh output     =>  muestra en pantalla las variables por defecto
     sh challenge1.sh create     =>  crea los recursos necesarios para el deploy : docker image && cluster
     sh challenge1.sh destroy    =>  elimina todos los recursos creados : docker image && cluster
     
