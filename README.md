@@ -6,13 +6,11 @@
     sh challenge1.sh destroy => elimina todos los recursos creados : docker image && cluster
     
 # Indicar el archivo json que contiene las credenciales en la variable 
-  GOOGLE_APPLICATION_CREDENTIALS="/tmp/sa1-294.json" #!!!!!!!!!!! MANDATORY
-  en el archivo challenge1.sh
+    GOOGLE_APPLICATION_CREDENTIALS="/tmp/sa1-294.json" #!!!!!!!!!!! MANDATORY en el archivo challenge1.sh
   
 # Acceso a la "app"
-  kubectl get svc # Tomar nota de la IP PUB Externa asignada al servicio "api"
-  http://<IP>             =>> Hello World
-  http://<IP>/greetings   =>> Hello World : Hostname <platform.node()>
-  http://<IP>/square/<N>  =>> Number : N
-                              Square : N*N
+    kubectl get svc # Tomar nota de la IP PUB Externa asignada al servicio "api"
+    http://<IP>             =>> Hello World
+    http://<IP>/greetings   =>> Hello World : Hostname <platform.node()>
+    http://<IP>/square/<N>  =>> Number : N / Square : N*N
   
