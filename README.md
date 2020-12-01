@@ -9,3 +9,10 @@
   GOOGLE_APPLICATION_CREDENTIALS="/tmp/sa1-294.json" #!!!!!!!!!!! MANDATORY
   en el archivo challenge1.sh
   
+# Ejecutar
+  kubectl get svc # Tomar nota de la IP PUB Externa asignada al servicio "api"
+  http://<IP>             =>> Hello World
+  http://<IP>/greetings   =>> Hello World : Hostname <platform.node()>
+  http://<IP>/square/<N>  =>> Number : N
+                              Square : N*N
+  
